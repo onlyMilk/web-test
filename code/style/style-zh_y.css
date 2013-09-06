@@ -1,0 +1,118 @@
+/* --------------------
+ * @AUTHOR: yangchen
+ * @CREATE: 2013.07.29
+ * ------------------- */
+
+@charset "utf-8";
+
+/* COMMON STYLE */
+
+/* NAMESPACE */
+
+.pdt14 { padding-top: 14px;}
+.pdt15 { padding-top: 15px;}
+.pdt16 { padding-top: 16px;}
+.pdt36 { padding-top: 36px;}
+.pdb7 { padding-bottom: 7px;}
+.pdb8 { padding-bottom: 8px;}
+.pdb11 { padding-bottom: 11px;}
+.pdb14 { padding-bottom: 14px;}
+.pdb23 { padding-bottom: 23px;}
+.pdb34 { padding-bottom: 34px;}
+.pdl13 { padding-left: 13px;}
+.pdl15 { padding-left: 15px;}
+.pdl17 { padding-left: 17px;}
+.pdl21 { padding-left: 21px;}
+.pdl26 { padding-left: 26px;}
+.pdl30 { padding-left: 30px;}
+.pdl35 { padding-left: 35px;}
+.pdl48 { padding-left: 48px;}
+
+.mgt24 { margin-top: 24px;}
+.mgl10 { margin-left: 10px;}
+.tx-importred { color: #f32d06;}
+.bg-messgrey { background-color: #f0f0f0;}
+
+/* RESPONSIVE
+ * ---------------------------------------------- */
+/* desktop */
+/*max-width:1200px*/
+
+.account-nav{ float:left;width:200px;margin:30px 10px 0 0;}
+.cusManage .account-nav{float:left;width:170px;margin:40px 10px 0 0;}
+.cusManage .account-nav li{height: 116px;margin:0 0 10px;position: relative;}
+.cusManage .account-nav li > a{display: block;height:100%;background:#06c  no-repeat center;color:#fff;}
+.cusManage .account-nav li  .menu1{background-image:url("../images/metro/cm-tradingClient.png");}
+.cusManage .account-nav li  .menu2{background-image:url("../images/metro/cm-attentionClients.png");}
+.cusManage .account-nav li  .menu3{background-image:url("../images/metro/cm-browseCustomers.png");}
+.cusManage .account-nav li.active > a{background-color:#f37c06;}
+.cusManage .account-nav li .menu-name{position: absolute;bottom:5px;left:12px;}
+.cusManage .right-content{float:left;width:725px;color:#666;}
+.cusManage .right-content .section-title{font-size:18px;height: 30px;}
+.cusManage .right-content .section-body{margin-bottom:10px; margin-top: 10px;}
+.cusManage .section-body .account-inner{height:520px;}
+.cusManage .customs { float:left; width: 232px; height: 114px; border: 1px solid #efefef; background-color: #fafafa; text-decoration: none;}
+.cusManage .customs p { padding-left: 42px; font-size: 14px; line-height: 14px; padding-bottom: 10px; color: #878787;}
+.cusManage .sum { color: #f32d06; padding-left: 26px;}
+.cusManage .section-body .account-inner a:hover{ border: 1px solid #0b6dce;}
+.cusManage #customs { width: 148px;}
+
+.clientDetails .content .left-nav { height: auto;}
+.clientDetails .left-nav p { font-size: 14px; line-height: 23px;}
+.clientDetails .left-nav img { margin-left: 5px;}
+.clientDetails input { width: 102px; padding: 0; margin: 0;}
+.clientDetails .sample-list{margin:0 -10px 0 0;}
+.clientDetails .sample-list li {float:left;width:207px;margin:0 10px 10px 0;background-color:#fafafa;}
+.clientDetails .sample-list .li-inner { border-top: 1px solid #e8e7ec; border-left: 1px solid #e8e7ec; border-right: 1px solid #e8e7ec;}
+.clientDetails .sample-list .li-inner:hover { border-top-color: #0364cb; border-left-color: #0364cb; border-right-color: #0364cb;}
+.clientDetails .sample-list p { padding-left: 8px; line-height: 12px; font-size: 12px;}
+.clientDetails .sample-list li .bar{height: 24px;line-height: 24px;background-color:#5a37b5;color:#fff;padding:0 15px;}
+.clientDetails .sample-list li .bar a{color:#fff;}
+.clientDetails .sample-list li .bar .ico{display:inline-block;*display:inline;*zoom: 1;width: 18px;height: 18px;vertical-align:middle;background:transparent url("../images/metro/cd-transactionDetail-icon.png") no-repeat 0 0;}
+.clientDetails .sample-list li p{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-break:break-all;}
+.clientDetails .sample-list .important-meney-red { padding-left: 26px ; color: #f42c08;}
+.clientDetails .sample-list .date-blue { padding-left: 15px ; color: #0066cb;}
+.clientDetails .menu-meney {color: #fffa80; padding-left: 17px;}
+.clientDetails .sample-list .li-inner-acc { border: 1px solid #e8e7ec;}
+.clientDetails .sample-list .li-inner-acc  p { font-size: 12px; line-height: 12px;}
+
+.reputationManagement .norecord img { margin-left: 40px;}
+.reputationManagement .norecord .msg { padding-top: 10px; padding-left: 24px;}
+.reputationManagement .norecord .msg p { line-height: 26px;}
+.reputationManagement .foul { padding-left: 48px; font-size: 12px; line-height: 24px;}
+.reputationManagement .foulmessage { font-size: 12px; padding-left: 30px; line-height: 22px; padding-bottom: 15px; padding-top: 24px;}
+.reputationManagement .icon-see { background-image: url(../images/metro/icon.png); background-position: 0px 0px ; width: 23px; height: 19px; display: inline-block;}
+.reputationManagement .icon-say { background-image: url(../images/metro/icon.png); background-position: -30px 0px ; width: 23px; height: 19px; display: inline-block;}
+.reputationManagement .orderAction table{ width:98%;}
+.reputationManagement .orderAction tr td{ height:28px; text-align:left; padding-left:10px;}
+.reputationManagement .orderAction .tr td{ background-color:#b9b9b9; color:#fff; height:24px; border-left:1px solid #fff; font-size:14px;}
+.reputationManagement .left-nav .shop-img{height:90px;width:90px;line-height: 90px;overflow:hidden;margin:15px 0 0 15px;border:4px solid #fff;position:relative;text-align: center;background-color:#f0f0f0;}
+.reputationManagement .left-nav .shop-img img{max-height:100%;}
+.reputationManagement .left-nav .shop-img .upload{line-height: 0;display:block;position:absolute;bottom:0;right:0;font-size:22px;width:100%;text-align:right;padding-right: 4px;height:24px;background:url("../images/metro/opacity_pix2.png") repeat;}
+.reputationManagement .left-nav .base-info{width:130px;margin:-98px 0 20px 120px;height: 84px;}
+.reputationManagement .left-nav h2{line-height:20px;margin:0;font-size:15px;}
+.reputationManagement .left-nav .star-group{margin:10px 0;}
+.reputationManagement .left-nav .star-group i{margin-left:-3px;font-size:16px}
+.reputationManagement .left-nav > div > p{font-size:12px;line-height: 24px;}
+.reputationManagement .section .tab-nav{height: 35px;line-height: 35px;margin-bottom:15px;}
+.reputationManagement .section .tab-nav > a{width: 115px;text-align:center;}
+.reputationManagement .section .tab-nav > a:hover{background-color:#09f;}
+.reputationManagement .section .tab-nav > a.active{*background:transparent url("../images/metro/ie7_ico1.png") no-repeat center bottom;}
+.reputationManagement .section .tab-nav > a.active:before{border-bottom: 5px solid #fff;border-left: 5px solid transparent;border-right: 5px solid transparent;bottom: 0;content: "";display: inline-block;left: 50%;margin-left: -5px;position: absolute;}
+.reputationManagement .section .tab-content-wrap{height:300px;}
+.reputationManagement .section .tab-content{margin:0;width: 100%;}
+/*min-width:1200px*/
+@media (min-width:1200px) {
+    .cusManage .account-nav{width:190px;}
+    .cusManage .right-content{width:900px;}
+    .cusManage .customs { width: 291px; }
+    .cusManage #customs { width: 168px;}
+    .clientDetails .sample-list li { width: 256px;}
+    .clientDetails input { width: 152px;}
+    .clientDetails .sample-list p {  line-height: 14px; font-size: 14px;}
+    .reputationManagement .section .tab-content-wrap{height: 330px;}
+    .reputationManagement .section .tab-pane .pro-list{margin:0 -10px 0 0;}
+    .reputationManagement .section .tab-pane .pro-list li{width:389px;height:160px;margin:0 10px 10px 0;}
+    .reputationManagement .section .pro-list li .inner-right p{line-height: 22px;font-size:13px;max-width:260px;}
+
+}

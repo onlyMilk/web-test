@@ -1,0 +1,434 @@
+﻿/* --------------------
+ * 门户网站页面CSS 
+ * @AUTHOR: 
+ * @CREATE: 2013.07.29
+ * ------------------- */
+
+@charset "utf-8";
+
+/* COMMON STYLE
+ * ----------------------------------------------- */
+.scrolltop {display:none;position:fixed;bottom:10px;right:10px;width:48px;height:48px;line-height:47px;text-align:center;font-size:36px;background-color:#0aa3ea;color:#fff;}
+.scrolltop:hover, .scrolltop:focus, .scrolltop:active {color:#fff;text-decoration:none;}
+
+[class^='service-brand'], [class*='service-brand']{display:inline-block;*display:inline;*zoom: 1;width: 100px;height: 100px;vertical-align:middle;background:transparent url("../images/metro/service_brand.png") no-repeat 0 0;}
+.service-brand01{background-position: 0 0;}
+.service-brand02{background-position: 0 -100px;}
+.service-brand03{background-position: 0 -200px;}
+.service-brand04{background-position: 0 -300px;}
+/* NAMESPACES
+ * ---------------------------------------------- */
+.namespace{width:100%;margin: 0;padding: 0;}
+
+/*
+code by yangcheng
+2013.8.2
+优势服务页面
+*/
+.preponderantServe a { text-decoration:none; color:#949494;}
+.preponderantServe .ls1 { letter-spacing:1px;}
+.preponderantServe { font-size:14px; color:#949494}
+.preponderantServe .div1-yc { height:175px; border:1px #E6E6E6 solid; *margin-bottom:13px;}
+.preponderantServe .left-yc { width:140px; float:left; height:175px;}
+.preponderantServe .right { margin-left:5%; width:60%; float:left; height:150px; padding-top:8%;}
+.preponderantServe .message-yc { height:100px; vertical-align:middle; margin-bottom:auto; margin-top:auto;}
+.preponderantServe .icon { text-align:right; margin-bottom:10px; margin-right:10px;}
+.preponderantServe .bg-head { color:#858585;}
+.preponderantServe .bg-blue { background-color:#2D89F0;}
+.preponderantServe .bg-title { background-color:#2D89F0;}
+.preponderantServe .c-font { color:#959595;}
+.preponderantServe .lh22 { line-height:22px;}
+.preponderantServe .font30 { font-size:30px;}
+.preponderantServe .pic { background-image:url(../images/portal/change_bg.png);}
+.preponderantServe .blank1 { background-position:0 0;}
+.preponderantServe .blank2 { background-position:-140px 0;}
+.preponderantServe .blank3 { background-position:0 -175px;}
+.preponderantServe .blank4 { background-position:-140px -175px;}
+.preponderantServe .blank5 { background-position:0 -350px;}
+.preponderantServe .blank6 { background-position:-140px -350px;}
+.preponderantServe .span6 { width:480px;}
+.preponderantServe .mr { margin-right:5px;}
+.preponderantServe .mr10 { margin-right:10px;}
+
+/*全球营销服务*/
+
+.serveDetail .ls1 { letter-spacing:1px;}
+.serveDetail .left { float:left;}
+.serveDetail .pall { border:1px solid #ddd; margin:0;}
+.serveDetail .flow { padding:20px 40px;}
+.serveDetail .proImg { padding:20px 0;text-align:center;border:1px solid #ddd;}
+.serveDetail .title {background-color:#2D89F0;}
+.serveDetail h5 { color:#2D89F0;}
+.serveDetail .title li { height:30px;}
+.serveDetail .title a { color:#FFF; line-height:30px; border:1px solid #2D89F0;}
+.serveDetail .title i { width:50px;}
+.serveDetail .title a:hover { background-color:#FFF; color:#2D89F0;}
+.serveDetail table td { height:180px;}
+.serveDetail table .server { width:95px; height:40px;padding: 10px;background-color:#06c;color:#fff; margin-top:20px; margin-bottom:20px; padding-right:11px; padding-left:5px;}
+.serveDetail .hid { visibility:hidden;}
+.serveDetail .message-yc { float:right;}
+.serveDetail .h80 { height:80px;}
+.serveDetail .h30  { height:30px;}
+.serveDetail .h150 { height:150px;}
+.serveDetail .h720 { height:720px;}
+.serveDetail .c-white { color:#FFF;}
+.serveDetail .c-font { color:#949494;}
+.serveDetail .c-point { color:#EA6000;}
+.serveDetail .showborder { border:1px solid #949494; margin-left:-1px;}
+.serveDetail .fw { font-weight:bold;}
+.serveDetail .bg-gley { background-color:#EEE;}
+.serveDetail .bg-head { background-color:#0066cb;}
+.serveDetail .bgpri {background-color:#2D89F0;}
+.serveDetail .problem { background-color:#EEEEEE;}
+.serveDetail .c-blue { color:#2D89F0;}
+.serveDetail .ti18 { text-indent:18px;}
+.serveDetail .lh30 { line-height:30px;}
+.serveDetail .l16 { left:16px;}
+.serveDetail .font32 { font-size:32px;}
+.serveDetail .mt-10 { margin-top:-10px;}
+.serveDetail .mt13 { margin-top:13px;}
+.serveDetail .mt20 { margin-top:20px;}
+.serveDetail .mt30 { margin-top:30px;}
+.serveDetail .mb30 { margin-bottom:30px;}
+.serveDetail .ml35 { margin-left:35px;}
+.serveDetail .pt5 { padding-top:5px;}
+.serveDetail .pb10 { padding-bottom:10px;}
+.serveDetail .pl { padding-left:14px;}
+.serveDetail .pl35 { padding-left:35px;}
+.serveDetail .w-85 { width:85%;}
+.serveDetail .w160 { width:160px;}
+.serveDetail .w175 { width:175px;}
+.serveDetail .w210 { width:210px;}
+.serveDetail .w225 { width:225px;}
+.serveDetail .w490 { width:490px;}
+.serveDetail .w760 { width:760px;}
+.serveDetail .h38 { height:38px;}
+.serveDetail .h180 { height:180px;}
+.serveDetail .pr { position:relative;}
+.serveDetail .pa { position:absolute;}
+.serveDetail .font30 { font-size:30px;}
+.serveDetail .center { text-align:center;}
+.serveDetail .special-move { width:100px; height:60px; visibility:hidden;}
+.serveDetail .accordion-inner ul { margin:0; padding:0; list-style-type:none;}
+.serveDetail .accordion-inner ul li { margin-bottom:5px;}
+.serveDetail .accordion-inner ul li:last-child { margin-bottom:0;}
+.serveDetail .accordion-inner ul a { display:block; text-decoration:none;}
+.serveDetail .accordion-group a { text-decoration:none;}
+.serveDetail .logo { height:95px; width:95px; float:left; margin-top:40px; margin-bottom:2px;}
+.serveDetail .logocontent { width:400px; float:left; margin-left:100px; margin-top:35px;}
+.serveDetail .tab-sd { float:left; width:240px;}
+.serveDetail .logo-div { margin-left:100px; padding-bottom:-10px; margin-top:5px;}
+.serveDetail .service-img{float:left;margin-left: 100px;padding-top: 45px;}
+
+/*
+化工资讯
+*/
+.chemicalInformation-yc .knowtab { float:left; width:110px;margin:0px; margin:0px;}
+.chemicalInformation-yc .knowtab dt{ height:45px; width:110px; text-align:center; padding:0px; margin:0px;}
+.chemicalInformation-yc.knowtab dd{ height:25px; width:110px; text-align:center; line-height:25px;margin:0px;}
+.chemicalInformation-yc .knowtab a { text-decoration:none;  color:#959595;}
+.chemicalInformation-yc .left { float:left;}
+.chemicalInformation-yc .right { float:right;}
+
+.chemicalInformation-yc .w150 { width:150px;}
+.chemicalInformation-yc .w204 { width:204px;}
+.chemicalInformation-yc .w240 { width:240px;}
+.chemicalInformation-yc .w246 { width:246px;}
+.chemicalInformation-yc .w279 { width:279px;}
+.chemicalInformation-yc .w428 { width:428px;}	
+	
+.chemicalInformation-yc .h85 { height:85px;}
+	
+.chemicalInformation-yc .mr19 { margin-right:19px;}
+.chemicalInformation-yc .hc { color:#7d7d7d;}
+.chemicalInformation-yc .fw { font-weight:bold;}
+.chemicalInformation-yc h2 { margin:0; padding:0; line-height:20px;}
+.chemicalInformation-yc span { margin:0; padding:0;}
+.chemicalInformation-yc p { margin:0; padding:0;}
+.chemicalInformation-yc .font9 { font-size:9px;}
+.chemicalInformation-yc .lh9 { line-height:9px;}
+.chemicalInformation-yc .lh12 { line-height:12px;}
+.chemicalInformation-yc .lh18 { line-height:18px;}
+.chemicalInformation-yc .lh14 { line-height:14px;}
+.chemicalInformation-yc .lh20 { line-height:20px;}
+.chemicalInformation-yc .lh30 { line-height:30px;}
+.chemicalInformation-yc .border { border:1px solid #dcdcdc;}
+.chemicalInformation-yc .foot1 { height:28px; border:1px solid #196ad5; background-color:#0066cc;}
+.chemicalInformation-yc .c-white { color:#FFF;}
+.chemicalInformation-yc .tc { text-align:center;}
+	
+
+.chemicalInformation-yc .mt-4 { margin-top:-4px;}	
+.chemicalInformation-yc .mt5 { margin-top:5px;}
+.chemicalInformation-yc .mt7 { margin-top:7px;}
+.chemicalInformation-yc .mt8 { margin-top:8px;}
+.chemicalInformation-yc .mt9 { margin-top:9px;}
+.chemicalInformation-yc .mt14 { margin-top:14px;}
+.chemicalInformation-yc .mt15 { margin-top:15px;}
+.chemicalInformation-yc .mt20 { margin-top:20px;}
+.chemicalInformation-yc .mt26 { margin-top:26px;}
+.chemicalInformation-yc .mt27 { margin-top:27px;}
+.chemicalInformation-yc .mt28 { margin-top:28px;}
+.chemicalInformation-yc .mt29 { margin-top:29px;}
+.chemicalInformation-yc .mt30 { margin-top:30px;}
+.chemicalInformation-yc .mt31 { margin-top:31px;}
+.chemicalInformation-yc .mt62 { margin-top:62px; *padding-top:18px;}
+.chemicalInformation-yc .mt240 { margin-top:240px;}
+	
+.chemicalInformation-yc .mb6 { margin-bottom:6px;}
+.chemicalInformation-yc .mb8 { margin-bottom:8px;}
+.chemicalInformation-yc .mb9 { margin-bottom:9px;}
+.chemicalInformation-yc .mb10 { margin-bottom:10px;}
+.chemicalInformation-yc .mb15 { margin-bottom:15px;}
+.chemicalInformation-yc .mb16 { margin-bottom:16px;}
+.chemicalInformation-yc .mb19 { margin-bottom:19px;}
+.chemicalInformation-yc .mb23 { margin-bottom:23px;}
+.chemicalInformation-yc .mb24 { margin-bottom:24px;}
+.chemicalInformation-yc .mb28 { margin-bottom:28px;}
+.chemicalInformation-yc .mb41 { margin-bottom:41px;}
+.chemicalInformation-yc .mb42 { margin-bottom:42px;}
+.chemicalInformation-yc .mb43 { margin-bottom:43px;}
+.chemicalInformation-yc .mb77 { margin-bottom:77px;}
+	
+.chemicalInformation-yc .ml10 { margin-left:10px;}
+.chemicalInformation-yc .ml11 { margin-left:11px;}
+.chemicalInformation-yc .ml18 { margin-left:18px;}
+.chemicalInformation-yc .ml20 { margin-left:20px;}
+.chemicalInformation-yc .ml22 { margin-left:22px;}
+.chemicalInformation-yc .ml24 { margin-left:24px;}
+.chemicalInformation-yc .ml26 { margin-left:26px;}
+.chemicalInformation-yc .ml33 { margin-left:33px;}
+.chemicalInformation-yc .ml40 { margin-left:40px;}
+.chemicalInformation-yc .ml48 { margin-left:48px;}
+.chemicalInformation-yc .ml69 { margin-left:69px;}
+.chemicalInformation-yc .ml86 { margin-left:86px;}
+.chemicalInformation-yc .ml108 { margin-left:108px;}
+.chemicalInformation-yc .ml123 { margin-left:123px;}
+.chemicalInformation-yc .ml160 { margin-left:160px;}
+.chemicalInformation-yc .ml200 { margin-left:200px;}
+.chemicalInformation-yc .ml0-7 { *margin-left:0px;}
+	
+.chemicalInformation-yc .mr36 { margin-right:36px;}
+.chemicalInformation-yc .mr48 { margin-right:48px;}
+	
+	
+.chemicalInformation-yc .pt5 { padding-top:5px;}
+.chemicalInformation-yc .pt26 { padding-top:26px;}
+.chemicalInformation-yc .pt28 { padding-top:28px;}
+.chemicalInformation-yc .pt29 { padding-top:29px;}
+	 
+.chemicalInformation-yc .pb6 { padding-bottom:6px;}
+.chemicalInformation-yc .pb14 { padding-bottom:14px; *padding-bottom:20px;}
+.chemicalInformation-yc .pb16 { padding-bottom:16px;}
+.chemicalInformation-yc .pb42 { padding-bottom:42px;}
+.chemicalInformation-yc .pb43 { padding-bottom:43px;}
+.chemicalInformation-yc .pb4-7 { *padding-bottom:4px;}
+.chemicalInformation-yc .pl20 { padding-left:20px;}
+.chemicalInformation-yc .pl24 { padding-left:24px;}
+.chemicalInformation-yc .pl25 { padding-left:25px;}
+.chemicalInformation-yc .pl26 { padding-left:26px;}
+.chemicalInformation-yc .pl33 { padding-left:33px;}
+.chemicalInformation-yc .pl40 { padding-left:40px;}
+.chemicalInformation-yc .pl0-7 { *padding-left:0px;}
+
+	
+.chemicalInformation-yc .c-font { color:#959595;}
+.chemicalInformation-yc .c-title { color:#0066cc;}
+	
+	
+.chemicalInformation-yc a { text-decoration:none;}
+	
+.chemicalInformation-yc .rank-yc ul { margin:0; padding:0; list-style-type:none;}
+.chemicalInformation-yc .rank-yc p {width:20px; text-align:center; display:inline-block; vertical-align:middle;  background-color:#EEE; color:#949494; margin-right:12px;}
+.chemicalInformation-yc .rank-yc .hot { background-color:#EB6100; color:#FFF;}
+.chemicalInformation-yc .rank-yc { margin-top:10px; margin-left:10px;}
+.chemicalInformation-yc .rank-yc a { color:#949494; text-decoration:none;}
+	
+.chemicalInformation-yc .knowtab dt{  text-align:center; padding:0px; margin:0px;}
+.chemicalInformation-yc .knowtab dd{  text-align:center; line-height:25px;margin:0px; padding:0; padding-bottom:7px;}
+.chemicalInformation-yc .knowtab a { text-decoration:none;  color:#959595;}
+.chemicalInformation-yc .knowtab div { height:40px; width:40px;}
+.chemicalInformation-yc .rank-yc .disline-7 { *display:inline;}
+.chemicalInformation-yc .bu { width:15px; height:15px; background-color:#38362c; color:#FFF; border-radius:0; text-indent:0px; text-align:center; line-height:13px; position:relative;}
+.chemicalInformation-yc .bu a,
+.chemicalInformation-yc .bu a:link { position:absolute; color:#FFF; font-size:10px; right:5px; top:1px;}
+.chemicalInformation-yc .bu:visited,
+.chemicalInformation-yc .bu:hover,
+.chemicalInformation-yc .bu:active
+ { background-color:#ff0000;}
+/*交易数据*/
+.transactionData .border { border:1px solid #E5E5E5;}
+.transactionData .left { float:left;}
+.transactionData .right { float:right;}
+.transactionData .m0 { margin:0;}
+.transactionData  a { color:#858585;}
+.transactionData .data-title ul { margin:0; padding:0; list-style-type:none;}
+.transactionData .data-title { margin-top:10px; margin-left:10px;}
+.transactionData .data-title .head { width:20px; height:20px; text-align:center; display:inline-block; vertical-align:middle; padding-top:1px; padding-bottom:1px; margin-right:18px; background-color:#EEE; color:#949494;}
+.transactionData .data-title li { margin-bottom:10px;}
+.transactionData .data-title .hot { background-color:#EB6100; color:#FFF;}
+.transactionData .contentpic { width:94px; height:80px; text-align:center;}
+.transactionData .h90 { height:90px;}
+.transactionData .p0 { padding:0;}
+.transactionData .center { text-align:center;}
+.transactionData .tabpic {  height:85px;}
+.transactionData .left { float:left;}
+.transactionData .right { float:right;}
+.transactionData .w241 { width:241px;}
+.transactionData .w725 { width:725px;}
+.transactionData .w727 { width:727px;}
+.transactionData .w-all { width:100%;}
+.transactionData .w580 { width:580px;}
+.transactionData .pic { position:relative; top:50px;}
+.transactionData .tab-yc { width:722px;}
+.transactionData .tab-yc a { text-decoration:none;}
+.transactionData .tal { text-align:left;}
+.transactionData .center { text-align:center;}
+.transactionData .tab-nav{height: 35px;line-height: 35px;margin-bottom:15px;background-color:#06c;}
+.transactionData .tab-nav > a{width: 115px;text-align:center;color:#fff;position: relative;float:left; margin-right:35px;}
+.transactionData .tab-nav > a:hover{background-color:#09f;}
+.transactionData .tab-nav > a.active{*background:transparent url("../images/metro/ie7_ico1.png") no-repeat center bottom;}
+.transactionData .tab-nav > a.active:before{border-bottom: 5px solid #fff;border-left: 5px solid transparent;border-right: 5px solid transparent;bottom: 0;content: "";display: inline-block;left: 50%;margin-left: -5px;position: absolute;}
+.transactionData .select_box{width:725px; border-left:1px solid #dcdcdc;  border-right:1px solid #dcdcdc; color:#959595;}
+.transactionData .select_box .title{ width:686px; height:30px; color:#7d7d7d; line-height:30px; background:#eeeeee;}
+.transactionData .select_box table.setone td{ border-bottom:1px solid #dcdcdc; border-right:1px solid #dcdcdc;border-top:1px solid #dcdcdc; height:30px; line-height:30px;}
+.transactionData .select_box table.setone td.last{border-right:0px;}
+.transactionData .select_box input.setid{width:228px; height:23px; border:1px solid #dcdcdc; margin-bottom:0px; margin-left:6px;}
+.transactionData .select_box input.setid2{ width:180px; height:23px;}
+.transactionData .select_box select.setbg{width:178px; height:30px; border:1px solid #dcdcdc; margin-left:6px; margin-bottom:0px;}
+.transactionData .select_box textarea{width:500px; height:80px; border:1px solid #dcdcdc; margin-left:6px;}
+.transactionData .select_box a{color:#959595}
+.transactionData .select_box .faq_set{width:626px; padding:14px 30px 14px 30px; line-height:22px;}
+.transactionData .tail-yc { position:absolute; right:320px;text-align:right; width:30px;}
+.transactionData .touch a { margin-right:20px; padding-left:6px; padding-right:6px;}
+.transactionData .touch a:hover,
+.transactionData .touch a:active,
+.transactionData .touch a:focus
+ { background-color:#0066CB; color:#FFF;}
+.transactionData .pr { position:relative;}
+.transactionData .pa { position:absolute;}
+.transactionData .r10 { right:10px;}
+.transactionData .search{ width:688px;height:37px;}
+.transactionData .search input.set1{width:551px; height:25px; border:2px solid #0066cc; line-height:25px;}
+.transactionData .search input.set2{width:40px; height:37px; background:url(../images/metro/data_search_bg.png);}
+.transactionData .c-font { color:#858585;}
+.transactionData .c-white { color:#FFF;}
+.transactionData .select_box .c-white { color:#FFF;}
+.transactionData .mt-41 { margin-top:-41px;}
+.transactionData .mt10 { margin-top:10px;}
+.transactionData .mt20 { margin-top:20px;}
+.transactionData .mt25 { margin-top:25px;}
+.transactionData .mt50 { margin-top:50px;}
+.transactionData .ml8 { margin-left:8px;}
+.transactionData .ml10 { margin-left:10px;}
+.transactionData .mb0 { margin-bottom:0px;}
+.transactionData .mb5 { margin-bottom:5px;}
+.transactionData .mb10 { margin-bottom:10px;}
+.transactionData .mb19 { margin-bottom:19px;}
+.transactionData .mr-1 { margin-right:-1px;}
+.transactionData .mr10 { margin-right:10px;}
+.transactionData .pt10 { padding-top:10px;}
+.transactionData .tab-withoutTopBorder td div .left:first-child{background-color:#eee;border:2px solid #ddd;height:100px;width: 100px;line-height: 90px;overflow: hidden;text-align:center;}
+
+/*底部详细页*/
+.bottomPageDetail .border { border:1px solid #E8E8E8;}
+.bottomPageDetail .ls1 { letter-spacing:1px;}
+.bottomPageDetail .fw { font-weight:bold;}
+.bottomPageDetail .font10 { font-size:10px;}
+.bottomPageDetail .bgMain { background-color:#06C;}
+.bottomPageDetail .left { float:left;}
+.bottomPageDetail .right { float:right;}
+.bottomPageDetail .h170 { height:170px;}
+.bottomPageDetail .h260 { height:260px;}
+.bottomPageDetail .h440 { height:440px;}
+.bottomPageDetail .h450 { height:450px; *height:440px;}
+.bottomPageDetail .w720 { width:720px;}
+.bottomPageDetail .w240 { width:240px;}
+.bottomPageDetail .w-all { width:100%;}
+.bottomPageDetail .mt-10 { margin-top:-10px;}
+.bottomPageDetail .mt0-7 { *margin-top:0px;}
+.bottomPageDetail .mt20 { *margin-top:20px;}
+.bottomPageDetail .mt30-7 { *margin-top:21px;}
+.bottomPageDetail .mt30 { margin-top:30px;}
+.bottomPageDetail .mb5-7 { *margin-bottom:5px;}
+.bottomPageDetail .mb10 { margin-bottom:10px;}
+.bottomPageDetail .ml530 { margin-left:530px;}
+.bottomPageDetail .mr10 { margin-right:10px;}
+.bottomPageDetail .cdefault { color:#949494;}
+.bottomPageDetail .bpd-a { text-decoration:none;}
+.bottomPageDetail .weibopic { width:120px; height:120px;}
+.bottomPageDetail .header { width:100%; height:60px; text-align:center; border-bottom:1px solid #E8E8E8;}
+.bottomPageDetail .bodyer { width:100%; height:286px; *height:296px;}
+.bottomPageDetail .pcontent { width:600px; margin-top:30px; margin-left:50px; padding:0; text-indent:30px; line-height:30px;}
+.bottomPageDetail .footer { width:100%; height:80px; }
+.bottomPageDetail .center { text-align:center;}
+.bottomPageDetail .c-white { color:#FFF;}
+.bottomPageDetail .shade { background-color:#FAFAFA;background:-webkit-gradient(linear,0 0,0 100%,from( #FFF),to( #F9F9F9));background:-moz-linear-gradient(top ,#FFF, #F9F9F9);   filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#FFFFFF,endcolorstr=#F9F9F9,gradientType=0);background:linear-gradient(to bottom, #FFFFFF, #F9F9F9);}
+.bottomPageDetail .bpd-content { margin:0; padding:0; list-style-type:none;}
+.bottomPageDetail .bpd-content li { margin-bottom:5px;}
+.bottomPageDetail .bpd-content a { color:#FFF; text-decoration:none;}
+.bottomPageDetail .pr { position:relative; margin-bottom:7px;}
+.bottomPageDetail .pr-i { position:absolute; left:42px; margin-top:5px;}
+.bottomPageDetail .bp-content a { text-decoration:none;}
+.bottomPageDetail .foot-img { margin-bottom:15px;}
+
+/*入驻流程*/
+.inprocess .fw { font-weight:bold;}
+.inprocess .left { float:left;}
+.inprocess .picsize { height:365px; width:233px;}
+.inprocess a { text-decoration:none;}
+.inprocess .c-font { color:#949494;}
+.inprocess .c-white { color:#FFF;}
+.inprocess .bodyer { height:25px; width:100%; background-color:#06C;}
+.inprocess .bodyer a { text-decoration:none;}
+.inprocess .bg-gray { background-color:#EEE;}
+.inprocess .bodyer a p { display:inline;}
+.inprocess .picurl { background-image:url("../images/portal/liuc_img1.png");}
+.inprocess .picPw { width:550px; height:319px; margin-left:90px;}
+.inprocess .blank1 { background-position:0 0;}
+.inprocess .blank2 { background-position:-233px 0;}
+.inprocess .blank3 { background-position:-466px 0;}
+.inprocess .blank4 { background-position:-699px 0;}
+.inprocess .blank-1 { background-position:0 -340px;}
+.inprocess .blank-2 { background-position:0 -670px;}
+.inprocess .blank-3 { background-position:0 -990px;}
+.inprocess .blank-4 { background-position:0 -1320px;}
+.inprocess .h365 { height:365px;}
+.inprocess .w-100 { width:100%;}
+.inprocess .h18 { height:18px;}
+.inprocess .h32 { height:32px;}
+.inprocess .span12 { width:980px;}
+.inprocess .mt { margin-top:-20px;}
+.inprocess .mt8 { margin-top:8px;}
+.inprocess .ml16 { margin-left:16px;}
+.inprocess .ml41 { margin-left:41px;}
+.inprocess .lh14 { line-height:14px;}
+.inprocess .accordion-group.active .accordion-heading{background-color:#06c;color:#fff;}
+.inprocess .accordion-group.active .accordion-heading a{color:#fff;}
+.inprocess .accordion-group .accordion-heading i.tip{float:right;vertical-align: middle;display:inline-block;*display:inline;*zoom:1;width: 15px;height: 15px;background:transparent url("../images/portal/liuc_img3.gif") no-repeat center;}
+.inprocess .accordion-group.active .accordion-heading i.tip{background:transparent url("../images/portal/liuc_img2.gif") no-repeat center;}
+
+/*styleother*/
+/* static - 静态页面 */
+.namespace.static{position: relative;}
+.static .navigation{width: 160px;padding:10px 15px;float:left;border:1px solid #ddd;background:#fafafa;}
+.static .navigation.affix{top:38px;}
+.static .navigation.affix-bottom{position:absolute;bottom:0;top:auto;}
+.static ol.ol-a, .static ol.ol-i{padding-left: 30px;}
+.static ol.ol-a li{list-style:lower-alpha outside none;}
+.static ol.ol-i li{list-style:lower-roman outside none;}
+.static .navigation > li{position: relative;}
+.static .navigation > li > a{padding:6px 20px 6px 55px;*padding:6px 40px;color:#333;text-shadow:none;}
+.static .navigation > li .icon-double-angle-right{color:#fff;position: absolute;right:0;top:7px;*top:9px;}
+.static .navigation > li.active > a, .static .navigation > li > a:hover, .static .navigation > li > a:focus{color:#fff;}
+.static .navigation .nav-header{padding:6px 20px 6px 34px;*padding:5px 14px;border-bottom:1px solid #ddd;font-size:12px;color:#999;}
+.static .main-content{margin-left: 15px;float:right;width: 691px;min-height:500px;padding:20px 40px 135px;border:1px solid #ddd;background:#fafafa url("../images/static_bg.png") no-repeat scroll bottom;}
+.static .main-content .title{border-bottom:3px solid #d8d8d8;padding-bottom:5px;margin-bottom:20px;}
+.static .main-content .title span{font-size:16px;border-bottom:3px solid #0aa3ea;padding-bottom: 5px;}
+.static .main-content p{line-height: 25px;margin-bottom: 10px;text-indent:30px;}
+.static .main-content.culture .pull-right{width: 246px;}
+.static .main-content.culture p{text-indent:0;margin-bottom: 10px;}
+.static .main-content.partner p, .static .content.legal p{margin-bottom: 5px;font-size:12px;line-height: 22px;}
+.static .main-content.friendLink ul > li{float:left;width: 184px;height: 84px;margin:0 20px 20px 0;}
+.static .line-bottom-dashed{border-bottom:1px dashed #ddd;padding-bottom:5px;margin-bottom: 10px;}
+.static .border-round {border:1px solid #ddd;}

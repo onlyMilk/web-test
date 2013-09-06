@@ -1,0 +1,428 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<!-- the site is designed by sunivo, 2013.07 -->
+	<title>CHEMON | 店铺管理</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="description" content="一站式进出口平台">
+	<meta name="keyword" content="进出口，外贸，化工">
+	<meta http-equiv="cache-control" content="no-cache">
+	<link rel="shortcut icon" href="../ico/favicon.png">
+	<link rel="apple-touch-icon" href="../ico/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="../script/html5shiv.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="../style/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../lib/jquery-icheck/skins/minimal/_all.css">
+	<link rel="stylesheet" type="text/css" href="../lib/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../style/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="../style/datetimepicker.css">
+	<link rel="stylesheet" type="text/css" href="../style/jquery.placeholder.css">
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-datepicker/css/datepicker.css">
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-timepicker/compiled/timepicker.css">
+	<link rel="stylesheet" type="text/css" href="../lib/chosen-bootstrap/chosen/chosen.css">
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="../lib/font-awesome/css/font-awesome-ie7.min.css">
+	<link rel="stylesheet" type="text/css" href="../style/icomoon-ie7.css">
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="../style/reset.css">
+	<link rel="stylesheet" type="text/css" href="../style/metro.css">
+	
+</head>
+<body>
+	<div class="namespace shopManage metro">
+		<!-- HEADER START -->
+		<div class="header">
+			<div class="container">
+				<div class="pull-left header-left">
+					<a href="vendorCenter.html" class="none-underline arrow-back"><i class="chemon-ico-back"></i></a>
+					<h1>店铺管理</h1>
+				</div>
+				<div class="pull-right header-right">
+					<strong class="user">Mike</strong>
+					<img src="../images/metro/user01.png" alt="">
+				</div>
+			</div>
+		</div>	
+		<!-- HEADER END -->
+
+		<!-- CONTENT START -->
+		<div class="content clearfix">
+			<div class="wrap">
+				<div class="container">
+					<div class="inner clearfix">
+						<!-- 左侧菜单 -->
+						<div class="left-nav tx-white bg-blue">
+							<div class="shop-img">
+								<img src="../images/metro/shop2.jpg" alt="">
+								<a class="upload none-underline" href="#" title="上传图片" triggerUpload><i class="icomoon-camera"></i></a>
+								<input type="file" name="" id="" class="hide">
+							</div>
+							<div class="base-info">
+								<h2 class="tx-white">邦幕恩化工（上海）有限公司</h2>
+								<div class="star-group" title="用户信誉等级">
+									<i class="level-star active"></i>
+									<i class="level-star active"></i>
+									<i class="level-star"></i>
+									<i class="level-star"></i>
+									<i class="level-star"></i>
+								</div>
+							</div>
+							<div class="bg-blue pd15">
+								<p>成交：1213 笔</p>
+								<p>企业地址：上海市浦东新区张衡路180号</p>
+								<p>会员注册日期：2013/06/21</p>
+								<p>会员有效期：2015/06/21</p>
+							</div>
+							<ul class="unstyled nav-menus clearfix">
+								<li><a class="btn btn-warning" href="shopManage.html">基本信息管理</a></li>
+								<li class="active"><a class="btn btn-warning" href="shopManage-product.html">产品管理</a></li>
+								<li><a class="btn btn-warning" href="shopManage-notice.html">店铺公告管理</a></li>
+								<li><a class="btn btn-warning" href="">模板管理</a></li>
+								<li><a class="btn btn-warning" href="">信誉管理</a></li>
+								<li><a class="btn btn-warning" href="">店铺统计</a></li>
+							</ul>
+						</div><!-- 左侧菜单 END -->
+
+						<!-- 右侧内容 -->
+						<div class="section pull-left">
+							<div class="section-title clearfix">
+								<span class="pull-left">产品管理</span>
+							</div>
+							<div class="section-body">
+								<div class="bg-blue tab-nav tx-white none-underline clearfix">
+									<a href="#tab1" class="relative pull-left active" data-toggle="tab">所有产品</a>
+									<a href="#tab2" class="relative pull-left" data-toggle="tab">热门产品</a>
+									<div class="input-append pull-right mg0 relative">
+										<input type="text" name="" id="">
+										<button class="btn btn-primary"><i class="icon-search"></i></button>
+									</div>
+								</div>
+								<div class="tab-content-wrap">
+									<div class="tab-content" id="tabContent" slimscroll>
+										<div class="tab-pane active fade in" id="tab1">
+											<ul class="unstyled clearfix pro-list">
+												<li class="add relative">
+													<button type="button" data-action="showCover"></button>
+													<form class="cover tx-white" method="get" action="addProduct.html">
+														<div class="pd20">
+															<a href="" class="close tx-white none-underline">&times;</a>
+															<div class="input-append relative">
+																<input type="text" name="" id="birds">
+																<button class="btn btn-primary"><i class="icon-search"></i></button>
+															</div>
+															<p>搜索历史</p>
+															<div>
+																<p>13467-3-2</p>
+																<p>Pentaerythritol</p>
+																<p>Alkylbenzene</p>
+															</div>
+														</div>
+													</form>
+												</li>
+												<li class="hot">
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+															<a href="" class="chemon-circle-ico-fire mgr15" data-action="setHot"></a>
+															<a href="" class="chemon-circle-ico-minus" data-action="removePro"></a>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li class="hot">
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+															<a href="" class="chemon-circle-ico-fire mgr15" data-action="setHot"></a>
+															<a href="" class="chemon-circle-ico-minus" data-action="removePro"></a>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+															<a href="" class="chemon-circle-ico-fire mgr15" data-action="setHot"></a>
+															<a href="" class="chemon-circle-ico-minus" data-action="removePro"></a>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+															<a href="" class="chemon-circle-ico-fire mgr15" data-action="setHot"></a>
+															<a href="" class="chemon-circle-ico-minus" data-action="removePro"></a>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+															<a href="" class="chemon-circle-ico-fire mgr15" data-action="setHot"></a>
+															<a href="" class="chemon-circle-ico-minus" data-action="removePro"></a>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+															<a href="" class="chemon-circle-ico-fire mgr15" data-action="setHot"></a>
+															<a href="" class="chemon-circle-ico-minus" data-action="removePro"></a>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+															<a href="" class="chemon-circle-ico-fire mgr15" data-action="setHot"></a>
+															<a href="" class="chemon-circle-ico-minus" data-action="removePro"></a>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+															<a href="" class="chemon-circle-ico-fire mgr15" data-action="setHot"></a>
+															<a href="" class="chemon-circle-ico-minus" data-action="removePro"></a>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+															<a href="" class="chemon-circle-ico-fire mgr15" data-action="setHot"></a>
+															<a href="" class="chemon-circle-ico-minus" data-action="removePro"></a>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li class="more" id="showMore"><a href="">显示更多 <i class="icon-caret-down"></i></a></li>
+											</ul>
+										</div><!-- tab1 -->
+										<div class="tab-pane fade" id="tab2">
+											<ul class="unstyled clearfix pro-list">
+												<li class="hot">
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li class="hot">
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li class="hot">
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li class="hot">
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li class="hot">
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+												<li class="hot">
+													<div class="clearfix pd10">
+														<div class="pull-left inner-left text-center">
+															<div class="pro-img mgb10"><a href="proDetail.html"><img src="../images/metro/pro01.jpg" alt=""></a></div>
+														</div>
+														<div class="pull-left inner-right">
+															<p><a href="proDetail.html">产品名：乙草酸</a></p>
+															<p>规格：60%</p>
+															<p>CAS NO.：162-23-3</p>
+															<p>所属分类：农药》除草剂》酰胺类</p>
+															<p>已发布报价：3个</p>
+															<p>未发布报价：1个</p>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div><!-- tab2 END -->
+									</div>
+								</div><!-- tab-content-wrap END -->
+							</div>
+						</div><!-- 右侧内容 END -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- fixed and absolute sections
+	====================================== -->
+	<div class="metro-sidebar">
+		<div class="sidebar-inner">
+			<ul class="unstyled none-underline tx-white">
+				<li><a href="vendorCenter.html"><i class="chemon-side-ico-home"></i> 中心首页</a></li>
+				<li><a href=""><i class="chemon-side-ico-order"></i> 我的订单</a></li>
+				<li><a href="account-index.html"><i class="chemon-side-ico-account"></i> 账户信息</a></li>
+				<li><a href=""><i class="chemon-side-ico-msg"></i> 消息中心</a><span class="badge badge-important">5</span></li>
+				<li class="active"><a href="shopManage.html"><i class="chemon-side-ico-shop"></i> 店铺管理</a></li>
+				<li><a href=""><i class="chemon-side-ico-custom"></i> 客户管理</a></li>
+				<li><a href="sample.html"><i class="chemon-side-ico-sample"></i> 样品申请</a></li>
+				<li><a href=""><i class="chemon-side-ico-finance"></i> 财务管理</a></li>
+			</ul>
+		</div>
+	</div><!-- METRO-SIDEBAR END -->
+	
+
+<!-- script
+===================== -->
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+<!--<script type="text/javascript" src="../script/module/bootstrap.min.js"></script>-->
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>-->
+<!--<script type="text/javascript" src="../lib/jquery-slimScroll-1.1.0/jquery.slimscroll.js"></script>-->
+<!--<script type="text/javascript" src="../lib/jquery-icheck/jquery.icheck.min.js"></script>-->
+<!--<script type="text/javascript" src="../lib/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>-->
+<!--<script type="text/javascript" src="../lib/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>-->
+<!--<script type="text/javascript" src="../lib/bootstrap-daterangepicker/date.js"></script>-->
+<!--<script type="text/javascript" src="../lib/bootstrap-daterangepicker/daterangepicker.js"></script>-->
+<!--<script type="text/javascript" src="../script/module/bootstrap-datetimepicker.min.js"></script>-->
+<!--<script type="text/javascript" src="../script/module/locales/bootstrap-datetimepicker.zh-CN.js"></script>-->
+<!--<script type="text/javascript" src="../script/module/jquery.placeholder.js"></script>-->
+<!--<script type="text/javascript" src="../script/module/jquery.form.js"></script>-->
+<!--<script type="text/javascript" src="../script/module/ports.js"></script>-->
+<!--<script type="text/javascript" src="../script/module/portSelector.js"></script>-->
+<!--<script type="text/javascript" src="../lib/chosen-bootstrap/chosen/chosen.jquery.min.js"></script>-->
+<!--<script type="text/javascript" src="../script/module/chemon-app.js"></script>-->
+<script type="text/javascript" src="../script/module/require.js" data-main="../script/main"></script>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>

@@ -1,0 +1,674 @@
+/*!
+ *  Font Icon for Chemon
+ *	
+ *	Contains Font Awesome, IcoMoon
+ *
+ *  License
+ *  -------------------------------------------------------
+ *  - The Font Awesome font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
+ *  - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License - http://opensource.org/licenses/mit-license.html
+ *  - The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
+ *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+ *    "Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"
+ *	- The IcoMoon font is licensed - http://creativecommons.org/licenses/by/3.0/
+ *	
+ *	- caihuazhi
+ */
+@font-face {
+  font-family: 'icomoon';
+  src: url('../font/icomoon.eot');
+  src: url('../font/icomoon.eot?#iefix') format('embedded-opentype'), url('../font/icomoon.woff') format('woff'), url('../font/icomoon.ttf') format('truetype'), url('../font/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icomoon-"],
+[class*=" icomoon-"] {
+  font-family: "icomoon";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  /* sprites.less reset */
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+[class^="icomoon-"]:before,
+[class*=" icomoon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+/* from icomoon */
+
+[data-icomoon]:before {
+  font-family: "icomoon";
+  content: attr(data-icomoon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+/* more sprites.less reset */
+
+.icomoon-white,
+.nav-pills > .active > a > [class^="icomoon-"],
+.nav-pills > .active > a > [class*=" icomoon-"],
+.nav-list > .active > a > [class^="icomoon-"],
+.nav-list > .active > a > [class*=" icomoon-"],
+.navbar-inverse .nav > .active > a > [class^="icomoon-"],
+.navbar-inverse .nav > .active > a > [class*=" icomoon-"],
+.dropdown-menu > li > a:hover > [class^="icomoon-"],
+.dropdown-menu > li > a:hover > [class*=" icomoon-"],
+.dropdown-menu > .active > a > [class^="icomoon-"],
+.dropdown-menu > .active > a > [class*=" icomoon-"],
+.dropdown-submenu:hover > a > [class^="icomoon-"],
+.dropdown-submenu:hover > a > [class*=" icomoon-"] {
+  background-image: none;
+}
+/* makes sure icons active on rollover in links */
+
+a [class^="icomoon-"],
+a [class*=" icomoon-"] {
+  display: inline-block;
+}
+.btn [class^="icomoon-"],
+.nav [class^="icomoon-"],
+.btn [class*=" icomoon-"],
+.nav [class*=" icomoon-"] {
+  display: inline;
+  /* keeps button heights with and without icons the same */
+
+}
+.btn [class^="icomoon-"].icomoon-large,
+.nav [class^="icomoon-"].icomoon-large,
+.btn [class*=" icomoon-"].icomoon-large,
+.nav [class*=" icomoon-"].icomoon-large {
+  line-height: .9em;
+}
+.btn [class^="icomoon-"].icomoon-spin,
+.nav [class^="icomoon-"].icomoon-spin,
+.btn [class*=" icomoon-"].icomoon-spin,
+.nav [class*=" icomoon-"].icomoon-spin {
+  display: inline-block;
+}
+.nav-tabs [class^="icomoon-"],
+.nav-pills [class^="icomoon-"],
+.nav-tabs [class*=" icomoon-"],
+.nav-pills [class*=" icomoon-"],
+.nav-tabs [class^="icomoon-"].icomoon-large,
+.nav-pills [class^="icomoon-"].icomoon-large,
+.nav-tabs [class*=" icomoon-"].icomoon-large,
+.nav-pills [class*=" icomoon-"].icomoon-large {
+  line-height: .9em;
+}
+li [class^="icomoon-"],
+.nav li [class^="icomoon-"],
+li [class*=" icomoon-"],
+.nav li [class*=" icomoon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+}
+li [class^="icomoon-"].icomoon-large,
+.nav li [class^="icomoon-"].icomoon-large,
+li [class*=" icomoon-"].icomoon-large,
+.nav li [class*=" icomoon-"].icomoon-large {
+  /* increased font size for icomoon-large */
+  width: 1.5625em;
+}
+ul.icons {
+  list-style-type: none;
+  text-indent: -0.75em;
+}
+ul.icons li [class^="icomoon-"],
+ul.icons li [class*=" icomoon-"] {
+  width: .75em;
+}
+.icomoon-muted {
+  color: #eeeeee;
+}
+.icomoon-border {
+  border: solid 1px #eeeeee;
+  padding: .2em .25em .15em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* makes the font 33% larger relative to the icon container */
+
+.icomoon-large:before {
+  vertical-align: -10%;
+  font-size: 1.333333333em;
+}
+.icomoon-2x {
+  font-size: 2em;
+}
+.icomoon-2x.icomoon-border {
+  border-width: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.icomoon-3x {
+  font-size: 3em;
+}
+.icomoon-3x.icomoon-border {
+  border-width: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.icomoon-4x {
+  font-size: 4em;
+}
+.icomoon-4x.icomoon-border {
+  border-width: 4px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+[class^="icomoon-"].pull-left,
+[class*=" icomoon-"].pull-left {
+  margin-right: .3em;
+}
+[class^="icomoon-"].pull-right,
+[class*=" icomoon-"].pull-right {
+  margin-left: .3em;
+}
+.btn [class^="icomoon-"].pull-left.icomoon-2x,
+.btn [class*=" icomoon-"].pull-left.icomoon-2x,
+.btn [class^="icomoon-"].pull-right.icomoon-2x,
+.btn [class*=" icomoon-"].pull-right.icomoon-2x {
+  margin-top: .18em;
+}
+.btn [class^="icomoon-"].icomoon-spin.icomoon-large,
+.btn [class*=" icomoon-"].icomoon-spin.icomoon-large {
+  line-height: .8em;
+}
+.btn.btn-small [class^="icomoon-"].pull-left.icomoon-2x,
+.btn.btn-small [class*=" icomoon-"].pull-left.icomoon-2x,
+.btn.btn-small [class^="icomoon-"].pull-right.icomoon-2x,
+.btn.btn-small [class*=" icomoon-"].pull-right.icomoon-2x {
+  margin-top: .25em;
+}
+.btn.btn-large [class^="icomoon-"],
+.btn.btn-large [class*=" icomoon-"] {
+  margin-top: 0;
+}
+.btn.btn-large [class^="icomoon-"].pull-left.icomoon-2x,
+.btn.btn-large [class*=" icomoon-"].pull-left.icomoon-2x,
+.btn.btn-large [class^="icomoon-"].pull-right.icomoon-2x,
+.btn.btn-large [class*=" icomoon-"].pull-right.icomoon-2x {
+  margin-top: .05em;
+}
+.btn.btn-large [class^="icomoon-"].pull-left.icomoon-2x,
+.btn.btn-large [class*=" icomoon-"].pull-left.icomoon-2x {
+  margin-right: .2em;
+}
+.btn.btn-large [class^="icomoon-"].pull-right.icomoon-2x,
+.btn.btn-large [class*=" icomoon-"].pull-right.icomoon-2x {
+  margin-left: .2em;
+}
+.icomoon-spin {
+  display: inline-block;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@-moz-document url-prefix() {
+  .icomoon-spin {
+    height: .9em;
+  }
+  
+  .btn .icomoon-spin {
+    height: auto;
+  }
+  
+  .icomoon-spin.icomoon-large {
+    height: 1.25em;
+  }
+  
+  .btn .icomoon-spin.icomoon-large {
+    height: .75em;
+  }
+}
+.icomoon-arrow-up-left:before {
+  content: "\e000";
+}
+.icomoon-arrow-up:before {
+  content: "\e011";
+}
+.icomoon-arrow-up-right:before {
+  content: "\e001";
+}
+.icomoon-arrow-right:before {
+  content: "\e002";
+}
+.icomoon-arrow-down-right:before {
+  content: "\e003";
+}
+.icomoon-arrow-down:before {
+  content: "\e004";
+}
+.icomoon-arrow-down-left:before {
+  content: "\e005";
+}
+.icomoon-arrow-left:before {
+  content: "\e006";
+}
+.icomoon-arrow-up-2:before {
+  content: "\e01b";
+}
+.icomoon-arrow-right-2:before {
+  content: "\e01c";
+}
+.icomoon-arrow-down-2:before {
+  content: "\e01d";
+}
+.icomoon-arrow-left-2:before {
+  content: "\e01e";
+}
+.icomoon-arrow-up-3:before {
+  content: "\e008";
+}
+.icomoon-arrow-right-3:before {
+  content: "\e009";
+}
+.icomoon-arrow-down-3:before {
+  content: "\e00a";
+}
+.icomoon-arrow-left-3:before {
+  content: "\e00b";
+}
+.icomoon-tab:before {
+  content: "\e007";
+}
+.icomoon-checkbox-checked:before {
+  content: "\e016";
+}
+.icomoon-checkbox-unchecked:before {
+  content: "\e017";
+}
+.icomoon-checkbox-partial:before {
+  content: "\e018";
+}
+.icomoon-radio-checked:before {
+  content: "\e019";
+}
+.icomoon-radio-unchecked:before {
+  content: "\e01a";
+}
+.icomoon-thumbs-up:before {
+  content: "\e00c";
+}
+.icomoon-thumbs-up-2:before {
+  content: "\e00d";
+}
+.icomoon-image:before {
+  content: "\e00e";
+}
+.icomoon-camera:before {
+  content: "\e00f";
+}
+.icomoon-eye:before {
+  content: "\e010";
+}
+.icomoon-eye-blocked:before {
+  content: "\e012";
+}
+.icomoon-fire:before {
+  content: "\e013";
+}
+.icomoon-lab:before {
+  content: "\e014";
+}
+.icomoon-share:before {
+  content: "\e015";
+}
+.icomoon-crop:before {
+  content: "\e01f";
+}
+.icomoon-scissors:before {
+  content: "\e020";
+}
+.icomoon-filter:before {
+  content: "\e021";
+}
+.icomoon-filter-2:before {
+  content: "\e022";
+}
+.icomoon-font:before {
+  content: "\e023";
+}
+.icomoon-loop:before {
+  content: "\e024";
+}
+.icomoon-loop-2:before {
+  content: "\e025";
+}
+.icomoon-shuffle:before {
+  content: "\e026";
+}
+.icomoon-loop-3:before {
+  content: "\e027";
+}
+.icomoon-enter:before {
+  content: "\e028";
+}
+.icomoon-exit:before {
+  content: "\e029";
+}
+.icomoon-plus:before {
+  content: "\e02a";
+}
+.icomoon-minus:before {
+  content: "\e02b";
+}
+.icomoon-spell-check:before {
+  content: "\e02c";
+}
+.icomoon-close:before {
+  content: "\e02d";
+}
+.icomoon-checkmark:before {
+  content: "\e02e";
+}
+.icomoon-spam:before {
+  content: "\e02f";
+}
+.icomoon-blocked:before {
+  content: "\e030";
+}
+.icomoon-cancel-circle:before {
+  content: "\e031";
+}
+.icomoon-checkmark-circle:before {
+  content: "\e032";
+}
+.icomoon-info:before {
+  content: "\e033";
+}
+.icomoon-info-2:before {
+  content: "\e034";
+}
+.icomoon-question:before {
+  content: "\e035";
+}
+.icomoon-notification:before {
+  content: "\e036";
+}
+.icomoon-warning:before {
+  content: "\e037";
+}
+.icomoon-eye-2:before {
+  content: "\e038";
+}
+.icomoon-heart-broken:before {
+  content: "\e039";
+}
+.icomoon-happy:before {
+  content: "\e03a";
+}
+.icomoon-happy-2:before {
+  content: "\e03b";
+}
+.icomoon-smiley:before {
+  content: "\e03c";
+}
+.icomoon-cool:before {
+  content: "\e03d";
+}
+.icomoon-download:before {
+  content: "\e03e";
+}
+.icomoon-upload:before {
+  content: "\e03f";
+}
+.icomoon-cloud-upload:before {
+  content: "\e040";
+}
+.icomoon-cloud-download:before {
+  content: "\e041";
+}
+.icomoon-earth:before {
+  content: "\e042";
+}
+.icomoon-truck:before {
+  content: "\e043";
+}
+.icomoon-airplane:before {
+  content: "\e044";
+}
+.icomoon-briefcase:before {
+  content: "\e045";
+}
+.icomoon-remove:before {
+  content: "\e046";
+}
+.icomoon-remove-2:before {
+  content: "\e047";
+}
+.icomoon-magnet:before {
+  content: "\e048";
+}
+.icomoon-hammer:before {
+  content: "\e049";
+}
+.icomoon-dashboard:before {
+  content: "\e04a";
+}
+.icomoon-cog:before {
+  content: "\e04b";
+}
+.icomoon-pie:before {
+  content: "\e04c";
+}
+.icomoon-bubbles:before {
+  content: "\e04d";
+}
+.icomoon-bubbles-2:before {
+  content: "\e04e";
+}
+.icomoon-user:before {
+  content: "\e04f";
+}
+.icomoon-user-2:before {
+  content: "\e050";
+}
+.icomoon-spinner:before {
+  content: "\e051";
+}
+.icomoon-spinner-2:before {
+  content: "\e052";
+}
+.icomoon-spinner-3:before {
+  content: "\e053";
+}
+.icomoon-undo:before {
+  content: "\e054";
+}
+.icomoon-redo:before {
+  content: "\e055";
+}
+.icomoon-forward:before {
+  content: "\e056";
+}
+.icomoon-reply:before {
+  content: "\e057";
+}
+.icomoon-box-add:before {
+  content: "\e058";
+}
+.icomoon-box-remove:before {
+  content: "\e059";
+}
+.icomoon-disk:before {
+  content: "\e05a";
+}
+.icomoon-history:before {
+  content: "\e05b";
+}
+.icomoon-compass:before {
+  content: "\e05c";
+}
+.icomoon-location:before {
+  content: "\e05d";
+}
+.icomoon-envelop:before {
+  content: "\e05e";
+}
+.icomoon-notebook:before {
+  content: "\e05f";
+}
+.icomoon-address-book:before {
+  content: "\e060";
+}
+.icomoon-phone:before {
+  content: "\e061";
+}
+.icomoon-folder-open:before {
+  content: "\e062";
+}
+.icomoon-home:before {
+  content: "\e063";
+}
+.icomoon-image-2:before {
+  content: "\e064";
+}
+.icomoon-music:before {
+  content: "\e065";
+}
+.icomoon-film:before {
+  content: "\e066";
+}
+.icomoon-book:before {
+  content: "\e067";
+}
+.icomoon-tags:before {
+  content: "\e068";
+}
+.icomoon-tag:before {
+  content: "\e069";
+}
+.icomoon-calendar:before {
+  content: "\e06a";
+}
+.icomoon-lock:before {
+  content: "\e06b";
+}
+.icomoon-key:before {
+  content: "\e06c";
+}
+.icomoon-food:before {
+  content: "\e06d";
+}
+.icomoon-rocket:before {
+  content: "\e06e";
+}
+.icomoon-switch:before {
+  content: "\e06f";
+}
+.icomoon-signup:before {
+  content: "\e070";
+}
+.icomoon-flag:before {
+  content: "\e071";
+}
+.icomoon-list:before {
+  content: "\e072";
+}
+.icomoon-list-2:before {
+  content: "\e073";
+}
+.icomoon-numbered-list:before {
+  content: "\e074";
+}
+.icomoon-volume-medium:before {
+  content: "\e075";
+}
+.icomoon-volume-mute:before {
+  content: "\e076";
+}
+.icomoon-volume-increase:before {
+  content: "\e077";
+}
+.icomoon-volume-decrease:before {
+  content: "\e078";
+}
+.icomoon-newspaper:before {
+  content: "\e079";
+}
+.icomoon-paste:before {
+  content: "\e07a";
+}
+.icomoon-file:before {
+  content: "\e07b";
+}
+.icomoon-books:before {
+  content: "\e07c";
+}
+.icomoon-file-2:before {
+  content: "\e07d";
+}
+.icomoon-droplet:before {
+  content: "\e07e";
+}
+.icomoon-key-2:before {
+  content: "\e07f";
+}

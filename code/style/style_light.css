@@ -1,0 +1,798 @@
+/***
+blue theme
+***/
+
+/***
+Reset and overrides  
+***/
+body {
+    background-color: #ffffff !important;
+    font-family: "微软雅黑";
+}
+
+/*c_开头为字体颜色*/
+.c_gray {
+    color: #999;
+}
+
+.c_blue {
+    color: #0088cc;
+}
+
+.c_red {
+    color: #E62614;
+}
+
+.c_green {
+    color: #090;
+}
+
+.c_orange {
+    color: #F90;
+}
+
+.c_write {
+    color: #fff;
+}
+
+.c_ccc {
+    color: #ccc;
+}
+
+.c_666 {
+    color: #666;
+}
+
+.c_333 {
+    color: #333;
+}
+
+.c_999 {
+    color: #999;
+}
+
+/*按内容性质定义字体颜色*/
+.c_warning {
+    color: #c09853
+}
+
+.c_error {
+    color: #b94a48
+}
+
+.c_success {
+    color: #468847
+}
+
+/*fs开头为字号定义*/
+.fs10 {
+    font-size: 10px;
+}
+
+.fs11 {
+    font-size: 11px;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs13 {
+    font-size: 13px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.fs18 {
+    font-size: 18px;
+}
+
+.fs19 {
+    font-size: 19px;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+.fs21 {
+    font-size: 21px;
+}
+
+.fs22 {
+    font-size: 22px;
+}
+
+.fs23 {
+    font-size: 23px;
+}
+
+.fs24 {
+    font-size: 24px;
+}
+
+.fs25 {
+    font-size: 25px;
+}
+
+/*内容位置*/
+td.align-left, .align-left, th.align-left {
+    text-align: left;
+}
+
+td.align-center, .align-center, th.align-center {
+    text-align: center;
+}
+
+td.align-right, .align-right, th.align-right {
+    text-align: right;
+}
+
+/*w开头表示宽度,h开头表示高度,bd为对边框的设置,mg为对外边距的设置,pd为对内边距的设置*/
+
+.bd_0 {
+    border: 0px solid #ccc;
+}
+
+.bd_1 {
+    border: 1px solid #ccc;
+}
+
+.bd_2 {
+    border: 2px solid #ccc;
+}
+
+.bdt_1 {
+    border-top: 1px solid #ccc;
+}
+
+.bdb_1 {
+    border-bottom: 1px solid #ccc;
+}
+
+.bdl_1 {
+    border-left: 1px solid #ccc;
+}
+
+.bdr_1 {
+    border-right: 1px solid #ccc;
+}
+
+.bdtd_1 {
+    border-top: 1px dotted #ccc;
+}
+
+.mg0 {
+    margin: 0px;
+}
+
+.mg1 {
+    margin: 1px;
+}
+
+.mg5 {
+    margin: 5px;
+}
+
+.mg10 {
+    margin: 10px;
+}
+
+.mg15 {
+    margin: 15px;
+}
+
+.mg20 {
+    margin: 20px;
+}
+
+.mgt5 {
+    margin-top: 5px;
+}
+
+.mgt10 {
+    margin-top: 10px;
+}
+
+.mgt15 {
+    margin-top: 15px;
+}
+
+.mgt20 {
+    margin-top: 20px;
+}
+
+.mgb5 {
+    margin-bottom: 5px;
+}
+
+.mgb10 {
+    margin-bottom: 10px;
+}
+
+.mgb15 {
+    margin-bottom: 15px;
+}
+
+.mgb20 {
+    margin-bottom: 20px;
+}
+
+.mgl5 {
+    margin-left: 5px;
+}
+
+.mgl10 {
+    margin-left: 10px;
+}
+
+.mgl15 {
+    margin-left: 15px;
+}
+
+.mgl20 {
+    margin-left: 20px;
+}
+
+.mgr5 {
+    margin-right: 5px;
+}
+
+.mgr10 {
+    margin-right: 10px;
+}
+
+.mgr15 {
+    margin-right: 15px;
+}
+
+.mgr20 {
+    margin-right: 20px;
+}
+
+.mg_center {
+    margin: auto;
+}
+
+.pd0 {
+    padding: 0px;
+}
+
+.pd1 {
+    padding: 1px;
+}
+
+.pd5 {
+    padding: 5px;
+}
+
+.pd10 {
+    padding: 10px;
+}
+
+.pd15 {
+    padding: 15px;
+}
+
+.pd20 {
+    padding: 20px;
+}
+
+.pdt5 {
+    padding-top: 5px;
+}
+
+.pdt10 {
+    padding-top: 10px;
+}
+
+.pdt15 {
+    padding-top: 15px;
+}
+
+.pdt20 {
+    padding-top: 20px;
+}
+
+.pdb5 {
+    padding-bottom: 5px;
+}
+
+.pdb10 {
+    padding-bottom: 10px;
+}
+
+.pdb15 {
+    padding-bottom: 15px;
+}
+
+.pdb20 {
+    padding-bottom: 20px;
+}
+
+.pdl5 {
+    padding-left: 5px;
+}
+
+.pdl10 {
+    padding-left: 10px;
+}
+
+.pdl15 {
+    padding-left: 15px;
+}
+
+.pdl20 {
+    padding-left: 20px;
+}
+
+.pdr5 {
+    padding-right: 5px;
+}
+
+.pdr10 {
+    padding-right: 10px;
+}
+
+.pdr15 {
+    padding-right: 15px;
+}
+
+.pdr20 {
+    padding-right: 20px;
+}
+
+/***
+Page header
+***/
+.header .brand {
+    color: #fff;
+}
+
+.header .navbar-inner {
+    filter: none !important;
+    background-image: none !important;
+    background-color: #2A61BE !important;
+}
+
+.header .btn-navbar {
+    padding-right: 10px;
+    padding-bottom: 12px;
+    background-color: #2A61BE !important;
+}
+
+.header .btn-navbar:hover {
+    background-color: #3D7CE6 !important;
+
+}
+
+.header .nav .dropdown-toggle:hover,
+.header .nav .dropdown.open .dropdown-toggle {
+    background-color: #3D7CE6 !important;
+}
+
+.header .nav li.dropdown .dropdown-toggle i {
+    color: #f5f5f5 !important;
+}
+
+/***
+Page sidebar
+***/
+.page-content {
+    border-left: 1px solid #e2e2e2 !important;
+    border-bottom: 1px solid #e2e2e2 !important;
+}
+
+.page-sidebar > ul > li > a {
+    border-top: 1px solid #e2e2e2 !important;
+    color: #000 !important;
+    font-weight: 400;
+}
+
+.page-sidebar > ul > li:first-child > a {
+    border-top: 1px solid transparent !important;
+}
+
+.page-sidebar > ul > li:last-child > a {
+    border-bottom: 1px solid transparent !important;
+}
+
+.page-sidebar > ul > li a i {
+    color: #ccc !important;
+}
+
+.page-sidebar > ul > li.has-sub.open >a,
+.page-sidebar > ul > li >a:hover,
+.page-sidebar > ul > li:hover>a {
+    background: #eee;
+    border-top: 1px solid #e8e8e8;
+}
+
+.page-sidebar > ul > li.active > a .selected {
+    right: -7px;
+    top: 1px;
+    width: 7px;
+    height: 39px;
+    background-image: url("../img/sidebar-menu-arrow-blue.png");
+}
+
+.page-sidebar > ul > li.active > a {
+    background: #19A2DE !important;
+    border-top-color: transparent !important;
+    color: #fff !important;
+}
+
+.page-sidebar > ul > li.active > a i {
+    color: #fff !important;
+}
+
+.page-sidebar > ul > li > a.open {
+    background: #fff;
+}
+
+.page-sidebar > ul > li > ul.sub > li > a {
+    color: #000;
+    margin-left: 0px;
+    padding-left: 50px;
+}
+
+.page-sidebar > ul > li > ul.sub > li:first-child > a {
+    border-top: 0px !important;
+}
+
+.page-sidebar > ul > li > ul.sub > li.active > a,
+.page-sidebar > ul > li > ul.sub > li > a:hover {
+    color: #818181 !important;
+    background: #efefef !important;
+}
+
+.page-sidebar .sidebar-search input {
+    background-color: #fbfbfb !important;
+    color: #727272 !important;
+}
+
+.page-sidebar .sidebar-search .input-box {
+    border-bottom-color: #cccccc !important;
+}
+
+.page-sidebar .sidebar-search .submit {
+    background-image: url(../img/search-icon-white.png);
+}
+
+/***
+Sidebar toggler
+***/
+.sidebar-toggler {
+    background-image: url(../img/sidebar-toggler-light.jpg);
+    background-color: #333;
+}
+
+/* search box bg color on expanded */
+.sidebar-closed .page-sidebar .sidebar-search.open {
+    background-color: #fbfbfb !important;
+}
+
+.sidebar-closed .page-sidebar .sidebar-search.open .remove {
+    background-image: url("../img/sidebar-search-close-light.png");
+}
+
+/* sub menu bg color on hover menu item */
+.sidebar-closed .page-sidebar > ul > li.has-sub:hover .sub {
+    background-color: #fbfbfb;
+}
+
+/***
+Landscape phone to portrait tablet
+***/
+@media (max-width:979px) {
+    /***
+    page sidebar
+    ***/
+    .page-sidebar {
+        background-color: #f1f1f1 !important;
+        border-right: none !important;
+    }
+
+    .page-sidebar > ul > li > a {
+        border-top: 1px solid #ccc !important;
+    }
+
+    .page-sidebar > ul > li:first-child > a {
+        border-top: 0 !important;
+    }
+
+    .page-sidebar > ul > li:last-child > a {
+        border-bottom: 0 !important;
+    }
+
+    .page-sidebar > ul > li.has-sub.open > a,
+    .page-sidebar > ul > li >a:hover,
+    .page-sidebar > ul > li:hover>a {
+        background: #ccc;
+    }
+
+    .page-sidebar > ul > li > a:hover > i {
+        color: #333 !important;
+    }
+
+    .page-sidebar > ul > li > ul.sub > li.active > a,
+    .page-sidebar > ul > li > ul.sub > li > a:hover {
+        background: #ccc !important;
+    }
+
+    .page-sidebar .sidebar-search input {
+        background-color: #f1f1f1 !important;
+    }
+}
+
+.btn.blue {
+    background-color: #19A2DE;
+}
+
+.btn.blue:hover {
+    background-color: #35BCF7 !important;
+}
+
+.page-title, .btn, .btn:hover {
+    font-family: "微软雅黑";
+    color: #3CA2E3;
+}
+
+.page-title {
+    margin: 15px 0 15px;
+}
+
+.page-title small a {
+    color: #666;
+}
+
+a {
+    color: #3CA2E3;
+    text-shadow: none !important;
+}
+
+/*portlet style*/
+
+.nomargin {
+    margin-bottom: 0px
+}
+
+.portlet.box.grey .portlet-title {
+    background-color: #eee;
+}
+
+.portlet.box.grey {
+    border: 1px solid #E2E2E2;
+    border-top: 0px;
+}
+
+.portlet-title h4 {
+    color: #333;
+}
+
+.portlet.box .portlet-title .tools > a.collapse, .portlet.solid .portlet-title .tools > a.collapse {
+    background-image: url("../img/portlet-collapse-icon.png");
+}
+
+.portlet-title .tools > a.collapse {
+    background-image: url("../img/portlet-collapse-icon.png");
+    width: 14px;
+}
+
+.portlet.box .portlet-title .tools > a.expand, .portlet.solid .portlet-title .tools > a.expand {
+    background-image: url("../img/portlet-expand-icon.png");
+}
+
+.portlet-title .tools > a.expand {
+    background-image: url("../img/portlet-expand-icon.png");
+    width: 14px;
+}
+
+.portlet-header {
+    margin-bottom: 0px;
+    overflow: hidden
+}
+
+.portlet-header .operation-btn {
+    margin-top: 5px;
+    margin-bottom: 13px;
+}
+
+.portlet-header .state-tab {
+    margin-bottom: 10px;
+}
+
+.state-tab .nav {
+    margin-bottom: 0px;
+}
+
+.portlet.box .portlet-body {
+    padding: 10px 10px;
+    border-top: 1px solid #E2E2E2;
+}
+
+.uneditable-input, textarea.m-wrap, input.m-wrap[type="text"], input.m-wrap[type="password"], input.m-wrap[type="datetime"], input.m-wrap[type="datetime-local"], input.m-wrap[type="date"], input.m-wrap[type="month"], input.m-wrap[type="time"], input.m-wrap[type="week"], input.m-wrap[type="number"], input.m-wrap[type="email"], input.m-wrap[type="url"], input.m-wrap[type="search"], input.m-wrap[type="tel"], input.m-wrap[type="color"] {
+    border: 1px solid #BABABA;
+}
+
+select.m-wrap, .chzn-container-single .chzn-single, .chzn-container-multi .chzn-choices {
+    border: 1px solid #BABABA !important;
+}
+
+.nav-pills > li > a {
+    color: #333;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #EDF7FC;
+    color: #19A2DE;
+}
+
+/*form style*/
+.form-horizontal .control-label {
+    float: left;
+    padding-top: 5px;
+    text-align: left;
+    width: 160px;
+}
+
+.form-horizontal .control-label {
+    width: 110px;
+}
+
+.form-horizontal .controls {
+    margin-left: 110px;
+}
+
+.form-horizontal .control-group {
+    margin-bottom: 8px;
+}
+
+.operation-search {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+}
+
+.operation-search form {
+    margin: 0px;
+}
+
+.operation-search form .m-wrap {
+    margin: 0px;
+    margin-right: -4px;
+}
+
+/*table style*/
+.table-advance thead tr th {
+    color: #333;
+}
+
+.page-content {
+    min-height: 860px;
+}
+
+.dl-horizontal {
+    margin: 0
+}
+
+.dl-horizontal dt {
+    width: 120px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 40px;
+    height: 40px;
+}
+
+.dl-horizontal dd {
+    margin-left: 120px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.alert-body {
+    display: block;
+}
+
+.page-content .breadcrumb {
+    margin-bottom: 10px;
+}
+
+/*modal 样式*/
+.modal-header h3 {
+    font-size: 16px
+}
+
+.modal-header {
+    padding: 5px 10px;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.modal-header .close {
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+
+    padding: 6px 15px 6px;
+
+}
+
+.btn.blue:focus, .btn.blue:active, .btn.blue.active, .btn.blue[disabled], .btn.blue.disabled {
+    background-color: #19A2DE !important;
+    color: #FFFFFF !important;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn[disabled], .btn.disabled {
+    font-family: "微软雅黑";
+}
+
+.input-icon .input-info, .input-icon .input-error, .input-icon .input-warning, .input-icon .input-success {
+    display: inline-block !important;
+    font-size: 16px;
+    position: relative !important;
+    right: -5px !important;
+    top: 7px;
+}
+
+.nav-tabs > li > a {
+    font-size: 14px;
+}
+
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+    cursor: auto;
+}
+
+.dropdown-menu .external.pagination {
+    margin: 0px;
+}
+
+.dropdown-menu .external.pagination a {
+    clear: none;
+    color: #333;
+}
+
+.dropdown-menu .external.pagination a:hover {
+    text-decoration: underline
+}
+
+.dropdown-menu .external.pagination a.more i {
+    margin-left: 10px;
+}
+
+div.checker {
+    position: relative;
+    top: 0px;
+}
+
+.form-horizontal.form-mrgin-left150 .controls {
+    margin-left: 150px;
+}
+
+.form-horizontal.form-mrgin-left200 .controls {
+    margin-left: 200px;
+}
+
+
+
+
+
+
